@@ -1,0 +1,6 @@
+
+
+- name: Configuring task01 and task02
+  hosts: webservers
+  roles:
+   - web-stg
